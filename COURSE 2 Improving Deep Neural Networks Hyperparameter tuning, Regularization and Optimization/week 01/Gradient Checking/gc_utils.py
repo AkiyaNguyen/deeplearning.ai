@@ -76,5 +76,4 @@ def gradients_to_vector(gradients):
         else:
             theta = np.concatenate((theta, new_vector), axis=0)
         count = count + 1
-
     return theta
